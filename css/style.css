@@ -233,8 +233,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
   height: 120px;
   width: 270px;
   margin-bottom: 30px;
@@ -356,7 +354,7 @@ a {
 }
 
 .social-link:hover,
-.social-link:hover {
+.social-link:focus {
   background-color: var(--accent-background-color);
   color: var(--accent-text-color-white);
 }
@@ -404,7 +402,7 @@ a {
 }
 
 .client-link:hover,
-.client-link:hover {
+.client-link:focus {
   border-color: var(--accent-background-color);
   fill: var(--accent-text-color-blue);
 }
@@ -509,7 +507,7 @@ a {
 }
 
 .footer-social-link:hover,
-.footer-social-link:hover {
+.footer-social-link:focus {
   background-color: var(--accent-background-color);
   color: var(--accent-text-color-white);
 }
